@@ -42,4 +42,4 @@ The website can be accessed here: http://127.0.0.1:5501/Develop/index.html
 Deployed application screenshots can be found below:
 <img src="Develop\assets\images\Website-Screenshot-1.png">
 <img src="Develop\assets\images\Website-Screenshot-2.png">
-<img src="Develop\assets\images\Website-Screenshot-3.png">
+<img src="Develop\assets\images\Website-screenshot-3.png">
