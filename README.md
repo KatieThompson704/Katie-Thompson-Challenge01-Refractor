@@ -1,27 +1,38 @@
-# Code Refactor Starter Code
-# <Your-Project-Title>
+# Katie's Code Refactor - Challenge 01
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+The purpose of this project is to refactor HTML and CSS starter code to meet accessibility standards. The starter code modifications were made using objectives defined in the following User Story and Acceptance Criteria.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+### User Story
 
-## Table of Contents (Optional)
+AS A marketing agency <br>
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+### Acceptance Criteria
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+GIVEN a webpage meets accessibility standards
+ - WHEN I view the source code <br>
+ THEN I find semantic HTML elements<br>
+ - WHEN I view the structure of the HTML elements<br>
+THEN I find that the elements follow a logical structure independent of styling and positioning<br>
+ - WHEN I view the image elements<br>
+THEN I find accessible alt attributes<br>
+ - WHEN I view the heading attributes<br>
+THEN they fall in sequential order<br>
+ - WHEN I view the title element<br>
+THEN I find a concise, descriptive title<br>
+ 
+## Summary of Changes 
 
-## Installation
+The following modifications were made to the code with asssociated comments:
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+- Replaced nonsemantic HTML elements, icluding div, with semantic HTML elements, such as header, section, footer, etc. Then, updated CSS file to match
+- Replaced HTML title element "website" with concise, descriptive title
+- Added alt attributes to img elements to bring them up to accessibility standards
+- Updated heading attributes in HTML to ensure sequential ordering
+- Consolidated CSS styling when possible
 
 ## Usage
 
