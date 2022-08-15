@@ -15,7 +15,8 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* removed redundant reference to Header */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -25,7 +26,7 @@ header h1 {
     color: #d9dcd6;
 }
 /* consolidated styling on header nav from 3 groups into 1 */
-header nav {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -49,7 +50,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    /* Removed background-image: url("../images/digital-marketing-meeting.jpg"); Added to HTML img */
+    /* Moved background-image: url("../images/digital-marketing-meeting.jpg") to HTML src */
     background-size: cover;
     background-position: center;
 }

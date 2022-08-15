@@ -1,8 +1,9 @@
-# Katie's Code Refactor - Challenge 01
+# HTML CSS Git Challenge: Code Refactor 
+# Katie Thompson - Challenge 01
 
 ## Description
 
-The purpose of this project is to refactor HTML and CSS starter code to meet accessibility standards. The starter code modifications were made using objectives defined in the following User Story and Acceptance Criteria.
+The purpose of this project is to practice following the Scout Rule by refactoring HTML and CSS starter code to meet accessibility standards. The starter code modifications were made using objectives defined in the following User Story and Acceptance Criteria.
 
 ### User Story
 
@@ -26,20 +27,19 @@ THEN I find a concise, descriptive title<br>
  
 ## Summary of Changes 
 
-The following modifications were made to the code with asssociated comments:
+The following code improvements were made and defined in comments:
 
-- Replaced nonsemantic HTML elements, icluding div, with semantic HTML elements, such as header, section, footer, etc. Then, updated CSS file to match
+- Replaced nonsemantic HTML elements (i.e. div) with semantic HTML elements (e.g. header, section, footer, etc.) Updated corresponding CSS references as needed
 - Replaced HTML title element "website" with concise, descriptive title
-- Added alt attributes to img elements to bring them up to accessibility standards
+- Added alt attributes to img elements for accessibility standard compliance
 - Updated heading attributes in HTML to ensure sequential ordering
-- Consolidated CSS styling when possible
+- Consolidated classes in HTML and CSS when possible
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+The website can be accessed here: http://127.0.0.1:5501/Develop/index.html
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Deployed application screenshots can be found below:
+<img src="Develop\assets\images\Website-Screenshot-1.png">
+<img src="Develop\assets\images\Website-Screenshot-2.png">
+<img src="Develop\assets\images\Website-Screenshot-3.png">
