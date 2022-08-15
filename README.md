@@ -40,6 +40,6 @@ The following code improvements were made and defined in comments:
 The website can be accessed here: https://katiethompson704.github.io/Katie-Thompson-Challenge01-Refractor/
 
 Deployed application screenshots can be found below:
-<img src="Develop\assets\images\Website-Screenshot-1.png">
-<img src="Develop\assets\images\Website-Screenshot-2.png">
-<img src="Develop\assets\images\website-screenshot-3.png">
+<img src="./assets\images\Website-Screenshot-1.png">
+<img src="./assets\images\Website-Screenshot-2.png">
+<img src="./assets\images\website-screenshot-3.png">
