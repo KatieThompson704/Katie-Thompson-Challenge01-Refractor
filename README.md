@@ -37,7 +37,7 @@ The following code improvements were made and defined in comments:
 
 ## Usage
 
-The website can be accessed here: http://127.0.0.1:5501/Develop/index.html
+The website can be accessed here: https://katiethompson704.github.io/Katie-Thompson-Challenge01-Refractor/
 
 Deployed application screenshots can be found below:
 <img src="Develop\assets\images\Website-Screenshot-1.png">
