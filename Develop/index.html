@@ -13,17 +13,19 @@
     <!-- Removed reduntant class=header, replaced with header tag -->
     <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- consolidated unordered listed links using nav element and added | inbetween to maintain distance -->
         <nav>
             <a href="#search-engine-optimization">Search Engine Optimization</a> |
             <a href="#online-reputation-management">Online Reputation Management</a> |
             <a href="#social-media-marketing">Social Media Marketing</a>
         </nav>
     </header>
-
-    <img class="hero"> 
+    <!-- added img src and alt attribute -->
+    <img class="hero" src="./assets/images/digital-marketing-meeting.jpg" alt="Group of 4 people meeting around a conference room table"> 
 
     <section class="content">
-        <article class="search-engine-optimization">
+        <!-- /* Consolidated 3 article classes into 1 "horiseon-services' */ -->
+        <article class="horiseon-services">
             <!-- Added alt attribute to img element 1; accessibility standard-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Desk with a laptop, coffee cup, pens, and notebook on top. Notebook at center of desk with SEO on it.">
             <h2>Search Engine Optimization</h2>
@@ -31,7 +33,7 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article class="horiseon-services">
             <!-- Added alt attribute to img element 2; accessibility standard-->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A laptop with charts and the word REPUTATION on the screen is shown being used by a person holding a cell phone">
             <h2>Online Reputation Management</h2>
@@ -39,7 +41,7 @@
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article class="horiseon-services">
             <!-- Added alt attribute to img element 3; accessibility standard-->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Multiple people using laptops seated around large table. In the center of the table are lots of icons and words related to social media marketing.">
             <h2>Social Media Marketing</h2>
@@ -49,8 +51,9 @@
         </article>
     </section>
 
+ <!-- /* Consolidated 3 benefit classes into 1 "brand-benefits' */ -->
     <aside class="benefits">
-        <section class="benefit-lead">
+        <section class="brand-benefits">
             <h3>Lead Generation</h3>
             <!-- Added alt attribute to img element 4; accessibility standard-->
             <img src="./assets/images/lead-generation.png" alt="black icon made of 3 smaller icons: half gear (top), downward arrow(middle), and $ (bottom)">
@@ -58,7 +61,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </section>
-        <section class="benefit-brand">
+        <section class="brand-benefits">
             <h3>Brand Awareness</h3>
             <!-- Added alt attribute to img element 5; accessibility standard-->
             <img src="./assets/images/brand-awareness.png" alt="black icon showing a suit with lightbulb and radiowaves for a head.">
@@ -66,7 +69,7 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </section>
-        <section class="benefit-cost">
+        <section class="brand-benefits">
             <h3>Cost Management</h3>
             <!-- Added alt attribute to img element 6; accessibility standard-->
             <img src="./assets/images/cost-management.png" alt="Black icon showing 3 small coins with dollar signs on them. Behind the 3 coins is the top half of 1 gear icon">
