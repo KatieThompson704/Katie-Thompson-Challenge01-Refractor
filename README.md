@@ -1,4 +1,4 @@
-# HTML CSS Git Challenge: Code Refactor 
+# HTML CSS Git Challenge: Code Refractor 
 # Katie Thompson - Challenge 01
 
 ## Description
